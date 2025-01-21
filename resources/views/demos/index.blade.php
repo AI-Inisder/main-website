@@ -5,7 +5,7 @@
     $css = '<link rel="stylesheet" href="' . asset('assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css') . '" />';
     $header = 'false';
     $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js') . '"></script>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <script src="' . asset('assets/js/insur.js') . '"></script>';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <script src="' . asset('assets/js/insur.js') . '"></script>';
     $counterone = 'false';
 @endphp
 
@@ -80,9 +80,10 @@
                                         solutions, <br> empowering businesses to thrive globally with Telkom Indonesia's
                                         innovation.</p>
                                     <div class="main-slider__btn-box" style="display: flex; gap: 1rem;">
-                                        <a href="#" class="thm-btn main-slider__btn">Explore
+                                        <a href="adm.teamstudy@gmail.com" class="thm-btn main-slider__btn">Explore
                                             Insights</a>
-                                        <a href="#" class="thm-btn main-slider__btn">Learn About AI
+                                        <a href="adm.teamstudy@gmail.com" class="thm-btn main-slider__btn">Learn About
+                                            AI
                                             Insider</a>
                                     </div>
                                 </div>
@@ -156,14 +157,14 @@
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="text">
-                                    <p>Backed by Telkom Indonesia’s expertise in telecommunications and digital
+                                    <p>Backed by Telkom Indonesia's expertise in telecommunications and digital
                                         innovation.</p>
                                 </div>
                             </li>
                         </ul>
                         <div class="about-one__btn-call">
                             <div class="about-one__btn-box">
-                                <a href="#" class="thm-btn about-one__btn">Discover More</a>
+                                <a href="adm.teamstudy@gmail.com" class="thm-btn about-one__btn">Discover More</a>
                             </div>
                         </div>
                     </div>
