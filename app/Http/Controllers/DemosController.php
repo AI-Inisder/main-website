@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\NewsApiService;
 use Illuminate\Http\Request;
 
 class DemosController extends Controller
@@ -10,12 +11,16 @@ class DemosController extends Controller
     {
         return view('demos/indexOnePage');
     }
-    
+
     public function index()
     {
-        return view('demos/index');
+        $newsApiService = app(NewsApiService::class);
+        $response = $newsApiService->getAllNews();
+        $news = $response['status'] ? array_slice($response['data'], 0, 3) : []; // Get first 3 news
+
+        return view('demos/index', ['news' => $news]);
     }
-    
+
     public function index2OnePage()
     {
         return view('demos/index2OnePage');
