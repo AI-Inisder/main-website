@@ -3,32 +3,60 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Services\NewsApiService;
 
 class NewsController extends Controller
 {
-    public function newsCarousel()
+    protected $newsApiService;
+
+    public function __construct(NewsApiService $newsApiService)
     {
-        return view('news/newsCarousel');
-    }
-    
-    public function newsDetails()
-    {
-        return view('news/newsDetails');
-    }
-    
-    public function newsSidebarLeft()
-    {
-        return view('news/newsSidebarLeft');
-    }
-    
-    public function newsSidebar()
-    {
-        return view('news/newsSidebar');
-    }
-    
-    public function news()
-    {
-        return view('news/news');
+        $this->newsApiService = $newsApiService;
     }
 
+    public function index()
+    {
+        $response = $this->newsApiService->getAllNews();
+        $news = $response['status'] ? $response['data'] : [];
+
+        return view('news.index', ['news' => $news]);
+    }
+
+    public function show($slug)
+    {
+        $response = $this->newsApiService->getNewsBySlug($slug);
+
+        // Tangani kasus di mana respons adalah array
+        if ($response['status'] && !empty($response['data'])) {
+            // Jika respons adalah array dan memiliki setidaknya satu item
+            if (is_array($response['data']) && !isset($response['data']['id'])) {
+                // Cari item dengan slug yang cocok
+                $newsItem = null;
+                foreach ($response['data'] as $item) {
+                    if (isset($item['slug']) && $item['slug'] === $slug) {
+                        $newsItem = $item;
+                        break;
+                    }
+                }
+
+                // Jika tidak ditemukan item dengan slug tersebut, gunakan item pertama
+                if ($newsItem === null && !empty($response['data'])) {
+                    $newsItem = $response['data'][0];
+                }
+
+                $news = $newsItem;
+            } else {
+                // Jika respons sudah berupa objek tunggal
+                $news = $response['data'];
+            }
+        } else {
+            $news = null;
+        }
+
+        if (!$news) {
+            abort(404);
+        }
+
+        return view('news.show', ['news' => $news]);
+    }
 }
