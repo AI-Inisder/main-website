@@ -4,6 +4,7 @@
     $headTitle = 'Berita - AI Insider';
     $css = '
     <style>
+        /* Card styling */
         .news-one__single {
             height: 100%;
             display: flex;
@@ -78,6 +79,67 @@
             color: #ddd;
             margin-bottom: 20px;
         }
+
+        /* Modern header styling */
+        .modern-header {
+            background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .modern-header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width=\'100%25\' height=\'100%25\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cdefs%3E%3Cpattern id=\'smallGrid\' width=\'30\' height=\'30\' patternUnits=\'userSpaceOnUse\'%3E%3Cpath d=\'M 30 0 L 0 0 0 30\' fill=\'none\' stroke=\'rgba(255, 255, 255, 0.05)\' stroke-width=\'1\'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'url(%23smallGrid)\'/%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+        .modern-header__inner {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+        }
+        .modern-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .modern-breadcrumb {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        .modern-breadcrumb li {
+            display: inline-flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+        .modern-breadcrumb li a {
+            color: rgba(255,255,255,0.9);
+            transition: color 0.3s ease;
+        }
+        .modern-breadcrumb li a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .modern-breadcrumb li span {
+            margin: 0 10px;
+            color: rgba(255,255,255,0.7);
+        }
+        .header-shape {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            fill: #fff;
+        }
     </style>';
     $header = 'false';
     $script = '';
@@ -121,23 +183,25 @@
         <x-strickyheader />
         <!-- /.stricky-header -->
 
-        <!--Page Header Start-->
-        <section class="page-header">
-            <div class="page-header-bg"
-                style="background-image: url('{{ asset('assets/images/backgrounds/page-header-bg.jpg') }}')">
-            </div>
+        <!--Modern Page Header Start-->
+        <section class="modern-header">
             <div class="container">
-                <div class="page-header__inner">
+                <div class="modern-header__inner">
                     <h2>Berita Terbaru</h2>
-                    <ul class="thm-breadcrumb list-unstyled">
+                    <ul class="modern-breadcrumb list-unstyled">
                         <li><a href="{{ route('index') }}">Beranda</a></li>
                         <li><span>/</span></li>
                         <li>Berita</li>
                     </ul>
                 </div>
             </div>
+            <svg class="header-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60">
+                <path fill-opacity="1"
+                    d="M0,32L80,42.7C160,53,320,75,480,64C640,53,800,11,960,0C1120,-11,1280,11,1360,21.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                </path>
+            </svg>
         </section>
-        <!--Page Header End-->
+        <!--Modern Page Header End-->
 
         <!--News Section Start-->
         <section class="news-two">
@@ -166,6 +230,7 @@
                                             <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
                                         </ul>
                                         <h3 class="news-one__title">
+
                                             <a
                                                 href="{{ route('news.show', $item['slug'] ?? '#') }}">{{ $item['title'] ?? 'Tidak ada judul' }}</a>
                                         </h3>
