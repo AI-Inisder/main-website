@@ -6,7 +6,7 @@
         '<link rel="stylesheet" href="' . asset('assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css') . '" />';
     $header = 'false';
     $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js') . '"></script>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <script src="' . asset('assets/js/insur.js') . '"></script>';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script src="' . asset('assets/js/insur.js') . '"></script>';
     $counterone = 'false';
 @endphp
 
@@ -78,7 +78,7 @@
                                     <div class="main-slider__content">
                                         <h2 class="main-slider__title" style="margin: 0"><span>Powering</span>
                                         </h2>
-                                        <h2 class="main-slider__title">Every Market,<br> Everywhere
+                                        <h2 class="main-slider__title">Every Market <br> and Talent Profiling
                                         </h2>
                                         <p class="main-slider__text">Redefining the B2B digital market with AI-driven
                                             solutions, <br> empowering businesses to thrive globally with Telkom Indonesia's
@@ -317,29 +317,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -455,29 +455,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -594,29 +594,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -733,29 +733,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -872,29 +872,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -1011,29 +1011,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -1150,29 +1150,29 @@
                                                 <div class="testimonial-six__bottom" style="margin-top: 5rem;">
                                                     <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
                                                         data-owl-options='{
-                                                                            "loop": true,
-                                                                            "autoplay": true,
-                                                                            "margin": 36,
-                                                                            "nav": true,
-                                                                            "dots": false,
-                                                                            "smartSpeed": 500,
-                                                                            "autoplayTimeout": 10000,
-                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                                            "responsive": {
-                                                                                "0": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "768": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "992": {
-                                                                                    "items": 1
-                                                                                },
-                                                                                "1350": {
-                                                                                    "items": 1
-                                                                                }
-                                                                            }
-                                                                        }'>
+                                                                                                    "loop": true,
+                                                                                                    "autoplay": true,
+                                                                                                    "margin": 36,
+                                                                                                    "nav": true,
+                                                                                                    "dots": false,
+                                                                                                    "smartSpeed": 500,
+                                                                                                    "autoplayTimeout": 10000,
+                                                                                                    "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                                                    "responsive": {
+                                                                                                        "0": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "768": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "992": {
+                                                                                                            "items": 1
+                                                                                                        },
+                                                                                                        "1350": {
+                                                                                                            "items": 1
+                                                                                                        }
+                                                                                                    }
+                                                                                                }'>
                                                         <!--Testimonial Six Single Start-->
                                                         <div class="item">
                                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
@@ -1304,8 +1304,8 @@
                 <div class="section-sub-title-box">
                     <p class="section-sub-title">Our Team</p>
                 </div>
-                <p class="text">AI Insider has revolutionized how we approach market profiling. The
-                    insights provided by this platform have driven efficiency and growth across our operations</p>
+                <p class="text">AI Insider has revolutionized how we approach market and talent profiling. The insights
+                    provided by this platform have driven efficiency and growth across our operations</p>
                 <h2 class="section-title__title">Here is the Team
                 </h2>
             </div>
@@ -1426,29 +1426,29 @@
                     <div class="col-xl-12">
                         <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
                             data-owl-options='{
-                                                                                                                                        "loop": true,
-                                                                                                                                        "autoplay": true,
-                                                                                                                                        "margin": 30,
-                                                                                                                                        "nav": false,
-                                                                                                                                        "dots": false,
-                                                                                                                                        "smartSpeed": 500,
-                                                                                                                                        "autoplayTimeout": 10000,
-                                                                                                                                        "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                                                                                                                        "responsive": {
-                                                                                                                                            "0": {
-                                                                                                                                                "items": 1
-                                                                                                                                            },
-                                                                                                                                            "768": {
-                                                                                                                                                "items": 2
-                                                                                                                                            },
-                                                                                                                                            "992": {
-                                                                                                                                                "items": 2
-                                                                                                                                            },
-                                                                                                                                            "1200": {
-                                                                                                                                                "items": 2
-                                                                                                                                            }
-                                                                                                                                        }
-                                                                                                                                    }'>
+                                                                                                                                                                "loop": true,
+                                                                                                                                                                "autoplay": true,
+                                                                                                                                                                "margin": 30,
+                                                                                                                                                                "nav": false,
+                                                                                                                                                                "dots": false,
+                                                                                                                                                                "smartSpeed": 500,
+                                                                                                                                                                "autoplayTimeout": 10000,
+                                                                                                                                                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                                                                                                                                                                "responsive": {
+                                                                                                                                                                    "0": {
+                                                                                                                                                                        "items": 1
+                                                                                                                                                                    },
+                                                                                                                                                                    "768": {
+                                                                                                                                                                        "items": 2
+                                                                                                                                                                    },
+                                                                                                                                                                    "992": {
+                                                                                                                                                                        "items": 2
+                                                                                                                                                                    },
+                                                                                                                                                                    "1200": {
+                                                                                                                                                                        "items": 2
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }'>
                             <div class="item">
                                 <div class="testimonial-one__single">
                                     <div class="testimonial-one__single-inner">
