@@ -6,7 +6,7 @@
         '<link rel="stylesheet" href="' . asset('assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css') . '" />';
     $header = 'false';
     $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js') . '"></script>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script src="' . asset('assets/js/insur.js') . '"></script>';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <script src="' . asset('assets/js/insur.js') . '"></script>';
     $counterone = 'false';
 @endphp
 
@@ -84,10 +84,10 @@
                                             solutions, <br> empowering businesses to thrive globally with Telkom Indonesia's
                                             innovation.</p>
                                         <div class="main-slider__btn-box" style="display: flex; gap: 1rem;">
-                                            <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Explore
                                                 Insights</a>
-                                            <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Learn About
                                                 AI
                                                 Insider</a>
@@ -170,7 +170,7 @@
                             </ul>
                             <div class="about-one__btn-call">
                                 <div class="about-one__btn-box">
-                                    <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                    <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                         class="thm-btn about-one__btn">Discover More</a>
                                 </div>
                             </div>
@@ -180,8 +180,6 @@
             </div>
         </section>
         <!--About One End-->
-
-
 
         <!--Why Choose One Start-->
         <section class="why-choose-one" id="why">
@@ -277,220 +275,1014 @@
         </section>
         <!--Why Choose One End-->
 
-        <!--Team One Start-->
-        <section class="team-one" id="team">
-            <div class="team-one__shape-1 float-bob-y">
-                <img src="{{ asset('assets/images/shapes/team-one-shape-1.png') }}" alt="">
-            </div>
+        <!--Get Insurance Start-->
+        <section class="get-insurance">
+            <div class="get-insurance-bg"
+                style="background-image: url('{{ asset('assets/images/backgrounds/get-insurance-bg.png') }}')"></div>
             <div class="container">
-                <div class="section-title text-center">
-                    <div class="section-sub-title-box">
-                        <p class="section-sub-title">Our Team</p>
-                    </div>
-                    <p class="text">AI Insider has revolutionized how we approach market profiling. The
-                        insights provided by this platform have driven efficiency and growth across our operations</p>
-                    <h2 class="section-title__title">Here is the Team
-                    </h2>
-                </div>
                 <div class="row">
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="{{ asset('assets/images/resources/person3.jpg') }}" alt="">
+                    <div class="col-12">
+                        <div class="get-insurance__right">
+                            <div class="section-title text-left">
+                                <div class="section-sub-title-box">
+                                    <p class="section-sub-title">Specialist</p>
                                 </div>
-                                <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                </ul>
+                                <h2 class="section-title__title">Connect with our team of experts who provide comprehensive
+                                    solutions for all your business and legal needs</h2>
                             </div>
-                            <div class="team-one__content">
-                                <p class="team-one__sub-title" style="height: 3.5rem;">Chief of Executive Officer</p>
-                                <h3 class="team-one__name">Amy Maryana</h3>
-                                <ul class="list-unstyled team-one__social-two">
-                                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="{{ asset('assets/images/resources/person2.jpg') }}" alt="">
-                                </div>
-                                <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-one__content">
-                                <p class="team-one__sub-title" style="height: 3.5rem;">Chief of Marketing and Management
-                                    Risk
-                                    Officer</p>
-                                <h3 class="team-one__name">Amanda Julia Isa</h3>
-                                <ul class="list-unstyled team-one__social-two">
-                                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="{{ asset('assets/images/resources/person1.jpg') }}" alt="">
-                                </div>
-                                <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-one__content">
-                                <p class="team-one__sub-title" style="height: 3.5rem;">Chief of creative and experience
-                                    officer
-                                </p>
-                                <h3 class="team-one__name">Hefrian</h3>
-                                <ul class="list-unstyled team-one__social-two">
-                                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                </div>
-            </div>
-        </section>
-        <!--Team One End-->
-
-        <!--Testimonial One Start-->
-        <section class="testimonial-one">
-            <div class="testimonial-one-shape-2 float-bob-y">
-                <img src="{{ asset('assets/images/shapes/testimonial-one-shape-2.png') }}" alt="">
-            </div>
-            <div class="testimonial-one-shape-3 float-bob-y">
-                <img src="{{ asset('assets/images/shapes/testimonial-one-shape-3.png') }}" alt="">
-            </div>
-            <div class="container">
-                <div class="testimonial-one__top">
-                    <div class="row" style="margin-bottom: 1rem">
-                        <div class="col-xl-6">
-                            <div class="testimonial-one__top-left">
-                                <div class="section-title text-left">
-                                    <div class="section-sub-title-box">
-                                        <p class="section-sub-title">Hear From Us</p>
-                                    </div>
-                                    <h2 class="section-title__title">Here is the testimonials</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="testimonial-one__top-right">
-                                <p class="testimonial-one__top-text">Got questions or ideas? Reach out to our team and
-                                    discover how AI Insider can empower your business and join our partners to leverage AI
-                                    Digital Platform just in one swipe</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-one__bottom">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
-                                data-owl-options='{
-                                "loop": true,
-                                "autoplay": true,
-                                "margin": 30,
-                                "nav": false,
-                                "dots": false,
-                                "smartSpeed": 500,
-                                "autoplayTimeout": 10000,
-                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                "responsive": {
-                                    "0": {
-                                        "items": 1
-                                    },
-                                    "768": {
-                                        "items": 2
-                                    },
-                                    "992": {
-                                        "items": 2
-                                    },
-                                    "1200": {
-                                        "items": 2
-                                    }
-                                }
-                            }'>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}"
-                                                    alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Tiffany</h3>
-                                                        <p class="testimonial-one__client-sub-title">Chief of Marketing
-                                                            Officer - Omni Channel Asistant (OCA)</p>
+                            <div class="get-insurance__tab">
+                                <div class="get-insurance__tab-box tabs-box">
+                                    <ul class="tab-buttons clearfix list-unstyled">
+                                        <li data-tab="#gencon" style="height: 4rem;" class="tab-btn active-btn">
+                                            <span>General Consultation</span>
+                                        </li>
+                                        <li data-tab="#lawyer" style="height: 4rem;" class="tab-btn"><span>Lawyer</span>
+                                        </li>
+                                        <li data-tab="#notaris" style="height: 4rem;" class="tab-btn"><span>Notaris</span>
+                                        </li>
+                                        <li data-tab="#legser" style="height: 4rem;" class="tab-btn"><span>Legal
+                                                Services</span></li>
+                                        <li data-tab="#capin" style="height: 4rem;" class="tab-btn"><span>Capital
+                                                Investment</span></li>
+                                        <li data-tab="#investors" style="height: 4rem;" class="tab-btn">
+                                            <span>Investors</span>
+                                        </li>
+                                        <li data-tab="#enginers" style="height: 4rem;" class="tab-btn"><span>Enginers</span>
+                                        </li>
+                                    </ul>
+                                    <div class="tabs-content">
+                                        <!--tab-->
+                                        <div class="tab active-tab" id="gencon">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text" style="height: 5rem">AI Insider membantu kami
-                                                dari sisi Produk utk
-                                                bisa memahami market wholesale di regional dan memahami profile potential
-                                                customernya
-                                            </p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}"
-                                                    alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Puji Suharmanto</h3>
-                                                        <p class="testimonial-one__client-sub-title">AM Divisi Wholesale
-                                                            Service, PT Telkom Indonesia</p>
+                                        <!--tab-->
+                                        <div class="tab" id="lawyer">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text" style="height: 5rem">AI Insider ibarat
-                                                menjadi
-                                                kompas ditengah hutan
-                                                belantara</p>
                                         </div>
+                                        <!--tab-->
+                                        <!--tab-->
+                                        <div class="tab" id="notaris">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--tab-->
+                                        <!--tab-->
+                                        <div class="tab" id="legser">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--tab-->
+                                        <!--tab-->
+                                        <div class="tab" id="capin">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--tab-->
+                                        <!--tab-->
+                                        <div class="tab" id="investors">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--tab-->
+                                        <!--tab-->
+                                        <div class="tab" id="enginers">
+                                            <div class="get-insurance__content">
+                                                <div class="testimonial-six__bottom" style="margin-top: 5rem;">
+                                                    <div class="testimonial-six__carousel owl-carousel owl-theme thm-owl__carousel"
+                                                        data-owl-options='{
+                                                                            "loop": true,
+                                                                            "autoplay": true,
+                                                                            "margin": 36,
+                                                                            "nav": true,
+                                                                            "dots": false,
+                                                                            "smartSpeed": 500,
+                                                                            "autoplayTimeout": 10000,
+                                                                            "navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                                            "responsive": {
+                                                                                "0": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "768": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "992": {
+                                                                                    "items": 1
+                                                                                },
+                                                                                "1350": {
+                                                                                    "items": 1
+                                                                                }
+                                                                            }
+                                                                        }'>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-1.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Remedios Linared</h3>
+                                                                        <p>Web designar</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-2.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Brandon Martinez</h3>
+                                                                        <p>Product Manager</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                        <!--Testimonial Six Single Start-->
+                                                        <div class="item">
+                                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
+                                                                class="testimonial-six__single">
+                                                                <div class="testimonial-six__single-top">
+                                                                    <div class="testimonial-six__ratting">
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                        <span class="fa fa-star"></span>
+                                                                    </div>
+                                                                    <p class="testimonial-six__text">Standard dummy text
+                                                                        ever since the unknown printer
+                                                                        took
+                                                                        galley of scramble make a type specimen book has the
+                                                                        been industr</p>
+                                                                </div>
+                                                                <div class="testimonial-six__client-info-box">
+                                                                    <div class="testimonial-six__quote-icon">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/icon/icon-quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-img">
+                                                                        <img src="{{ asset('assets/images/update-17-06-2023/testimonial/testimonial-six-img-3.jpg') }}"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="testimonial-six__client-info">
+                                                                        <h3>Marjorie Worley</h3>
+                                                                        <p>Web Development</p>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <!--Testimonial Six Single Start-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--tab-->
                                     </div>
                                 </div>
                             </div>
@@ -498,74 +1290,299 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--Testimonial One End-->
+    </div>
+    </section>
+    <!--Get Insurance End-->
 
-        <!--News One Start-->
-        <section class="news-one" id="news">
-            <div class="container">
-                <div class="section-title text-center">
-                    <div class="section-sub-title-box">
-                        <p class="section-sub-title">Latest News</p>
-                    </div>
-                    <h2 class="section-title__title">Our Latest Articles <br> & News</h2>
+    <!--Team One Start-->
+    <section class="team-one" id="team">
+        <div class="team-one__shape-1 float-bob-y">
+            <img src="{{ asset('assets/images/shapes/team-one-shape-1.png') }}" alt="">
+        </div>
+        <div class="container">
+            <div class="section-title text-center">
+                <div class="section-sub-title-box">
+                    <p class="section-sub-title">Our Team</p>
                 </div>
+                <p class="text">AI Insider has revolutionized how we approach market profiling. The
+                    insights provided by this platform have driven efficiency and growth across our operations</p>
+                <h2 class="section-title__title">Here is the Team
+                </h2>
+            </div>
+            <div class="row">
+                <!--Team One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="team-one__single">
+                        <div class="team-one__img">
+                            <div class="team-one__img-box">
+                                <img src="{{ asset('assets/images/resources/person3.jpg') }}" alt="">
+                            </div>
+                            <ul class="list-unstyled team-one__social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-one__content">
+                            <p class="team-one__sub-title" style="height: 3.5rem;">Chief of Executive Officer</p>
+                            <h3 class="team-one__name">Amy Maryana</h3>
+                            <ul class="list-unstyled team-one__social-two">
+                                <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Team One Single End-->
+                <!--Team One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="team-one__single">
+                        <div class="team-one__img">
+                            <div class="team-one__img-box">
+                                <img src="{{ asset('assets/images/resources/person2.jpg') }}" alt="">
+                            </div>
+                            <ul class="list-unstyled team-one__social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-one__content">
+                            <p class="team-one__sub-title" style="height: 3.5rem;">Chief of Marketing and Management
+                                Risk
+                                Officer</p>
+                            <h3 class="team-one__name">Amanda Julia Isa</h3>
+                            <ul class="list-unstyled team-one__social-two">
+                                <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Team One Single End-->
+                <!--Team One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="team-one__single">
+                        <div class="team-one__img">
+                            <div class="team-one__img-box">
+                                <img src="{{ asset('assets/images/resources/person1.jpg') }}" alt="">
+                            </div>
+                            <ul class="list-unstyled team-one__social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-one__content">
+                            <p class="team-one__sub-title" style="height: 3.5rem;">Chief of creative and experience
+                                officer
+                            </p>
+                            <h3 class="team-one__name">Hefrian</h3>
+                            <ul class="list-unstyled team-one__social-two">
+                                <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Team One Single End-->
+            </div>
+        </div>
+    </section>
+    <!--Team One End-->
+
+    <!--Testimonial One Start-->
+    <section class="testimonial-one">
+        <div class="testimonial-one-shape-2 float-bob-y">
+            <img src="{{ asset('assets/images/shapes/testimonial-one-shape-2.png') }}" alt="">
+        </div>
+        <div class="testimonial-one-shape-3 float-bob-y">
+            <img src="{{ asset('assets/images/shapes/testimonial-one-shape-3.png') }}" alt="">
+        </div>
+        <div class="container">
+            <div class="testimonial-one__top">
+                <div class="row" style="margin-bottom: 1rem">
+                    <div class="col-xl-6">
+                        <div class="testimonial-one__top-left">
+                            <div class="section-title text-left">
+                                <div class="section-sub-title-box">
+                                    <p class="section-sub-title">Hear From Us</p>
+                                </div>
+                                <h2 class="section-title__title">Here is the testimonials</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="testimonial-one__top-right">
+                            <p class="testimonial-one__top-text">Got questions or ideas? Reach out to our team and
+                                discover how AI Insider can empower your business and join our partners to leverage AI
+                                Digital Platform just in one swipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-one__bottom">
                 <div class="row">
-                    @if (isset($news) && count($news) > 0)
-                        @foreach ($news as $item)
-                            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                                <div class="news-one__single">
-                                    <div class="news-one__img" style="height: 250px; overflow: hidden;">
-                                        <img src="{{ isset($item['image']) ? 'https://cms.asets.id/storage/' . $item['image'] : asset('assets/images/resources/news-default.jpg') }}"
-                                            alt="{{ $item['title'] ?? 'News image' }}"
-                                            style="width: 100%; height: 100%; object-fit: cover;">
-                                        <div class="news-one__tag">
-                                            <p>{{ $item['category'] ?? 'News' }}</p>
+                    <div class="col-xl-12">
+                        <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
+                            data-owl-options='{
+                                                                                                                                        "loop": true,
+                                                                                                                                        "autoplay": true,
+                                                                                                                                        "margin": 30,
+                                                                                                                                        "nav": false,
+                                                                                                                                        "dots": false,
+                                                                                                                                        "smartSpeed": 500,
+                                                                                                                                        "autoplayTimeout": 10000,
+                                                                                                                                        "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                                                                                                                                        "responsive": {
+                                                                                                                                            "0": {
+                                                                                                                                                "items": 1
+                                                                                                                                            },
+                                                                                                                                            "768": {
+                                                                                                                                                "items": 2
+                                                                                                                                            },
+                                                                                                                                            "992": {
+                                                                                                                                                "items": 2
+                                                                                                                                            },
+                                                                                                                                            "1200": {
+                                                                                                                                                "items": 2
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }'>
+                            <div class="item">
+                                <div class="testimonial-one__single">
+                                    <div class="testimonial-one__single-inner">
+                                        <div class="testimonial-one__shape-1">
+                                            <img src="{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}"
+                                                alt="">
                                         </div>
-                                        <a href="{{ route('news.show', $item['slug'] ?? '#') }}">
-                                            <span class="news-one__plus"></span>
-                                        </a>
-                                        <div class="news-one__date">
-                                            <p>{{ isset($item['published_date']) ? \Carbon\Carbon::parse($item['published_date'])->format('d M, Y') : date('d M, Y') }}
-                                            </p>
+                                        <div class="testimonial-one__client-info">
+                                            <div class="testimonial-one__client-content">
+                                                <div class="testimonial-one__client-review">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <div class="testimonial-one__client-details">
+                                                    <h3 class="testimonial-one__client-name">Tiffany</h3>
+                                                    <p class="testimonial-one__client-sub-title">Chief of Marketing
+                                                        Officer - Omni Channel Asistant (OCA)</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="news-one__content">
-                                        <ul class="list-unstyled news-one__meta">
-                                            <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
-                                        </ul>
-                                        <h3 class="news-one__title"
-                                            style="min-height: 50px; margin-bottom: 15px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-                                            <a
-                                                href="{{ route('news.show', $item['slug'] ?? '#') }}">{{ $item['title'] ?? 'No title available' }}</a>
-                                        </h3>
-                                        <p class="news-one__excerpt"
-                                            style="margin-bottom: 20px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-                                            {{ $item['excerpt'] ?? substr(strip_tags($item['content'] ?? 'No content available'), 0, 100) . '...' }}
+                                        <p class="testimonial-one__text" style="height: 5rem">AI Insider membantu kami
+                                            dari sisi Produk utk
+                                            bisa memahami market wholesale di regional dan memahami profile potential
+                                            customernya
                                         </p>
-                                        <div class="news-one__read-more">
-                                            <a href="{{ route('news.show', $item['slug'] ?? '#') }}">Read More <i
-                                                    class="fas fa-angle-double-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        @endforeach
-                    @else
-                        <div class="col-12">
-                            <div class="news-one__empty text-center py-5">
-                                <i class="far fa-newspaper fa-3x mb-3" style="color: #c0c0c0;"></i>
-                                <h4>No News Available</h4>
-                                <p>Check back later for updates and the latest articles.</p>
+                            <div class="item">
+                                <div class="testimonial-one__single">
+                                    <div class="testimonial-one__single-inner">
+                                        <div class="testimonial-one__shape-1">
+                                            <img src="{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <div class="testimonial-one__client-content">
+                                                <div class="testimonial-one__client-review">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <div class="testimonial-one__client-details">
+                                                    <h3 class="testimonial-one__client-name">Puji Suharmanto</h3>
+                                                    <p class="testimonial-one__client-sub-title">AM Divisi Wholesale
+                                                        Service, PT Telkom Indonesia</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="testimonial-one__text" style="height: 5rem">AI Insider ibarat
+                                            menjadi
+                                            kompas ditengah hutan
+                                            belantara</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    @endif
-                </div>
-                <div class="news-one__btn-box">
-                    <a href="{{ route('news.index') }}" class="thm-btn news-one__btn">View All News</a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!--News One End-->
+        </div>
+    </section>
+    <!--Testimonial One End-->
 
-    @endsection
+    <!--News One Start-->
+    <section class="news-one" id="news">
+        <div class="container">
+            <div class="section-title text-center">
+                <div class="section-sub-title-box">
+                    <p class="section-sub-title">Latest News</p>
+                </div>
+                <h2 class="section-title__title">Our Latest Articles <br> & News</h2>
+            </div>
+            <div class="row">
+                @if (isset($news) && count($news) > 0)
+                    @foreach ($news as $item)
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="news-one__single">
+                                <div class="news-one__img" style="height: 250px; overflow: hidden;">
+                                    <img src="{{ isset($item['image']) ? 'https://cms.asets.id/storage/' . $item['image'] : asset('assets/images/resources/news-default.jpg') }}"
+                                        alt="{{ $item['title'] ?? 'News image' }}"
+                                        style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="news-one__tag">
+                                        <p>{{ $item['category'] ?? 'News' }}</p>
+                                    </div>
+                                    <a href="{{ route('news.show', $item['slug'] ?? '#') }}">
+                                        <span class="news-one__plus"></span>
+                                    </a>
+                                    <div class="news-one__date">
+                                        <p>{{ isset($item['published_date']) ? \Carbon\Carbon::parse($item['published_date'])->format('d M, Y') : date('d M, Y') }}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="news-one__content">
+                                    <ul class="list-unstyled news-one__meta">
+                                        <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
+                                    </ul>
+                                    <h3 class="news-one__title"
+                                        style="min-height: 50px; margin-bottom: 15px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        <a
+                                            href="{{ route('news.show', $item['slug'] ?? '#') }}">{{ $item['title'] ?? 'No title available' }}</a>
+                                    </h3>
+                                    <p class="news-one__excerpt"
+                                        style="margin-bottom: 20px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        {{ $item['excerpt'] ?? substr(strip_tags($item['content'] ?? 'No content available'), 0, 100) . '...' }}
+                                    </p>
+                                    <div class="news-one__read-more">
+                                        <a href="{{ route('news.show', $item['slug'] ?? '#') }}">Read More <i
+                                                class="fas fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                @else
+                    <div class="col-12">
+                        <div class="news-one__empty text-center py-5">
+                            <i class="far fa-newspaper fa-3x mb-3" style="color: #c0c0c0;"></i>
+                            <h4>No News Available</h4>
+                            <p>Check back later for updates and the latest articles.</p>
+                        </div>
+                    </div>
+                @endif
+            </div>
+            <div class="news-one__btn-box">
+                <a href="{{ route('news.index') }}" class="thm-btn news-one__btn">View All News</a>
+            </div>
+        </div>
+    </section>
+    <!--News One End-->
+
+@endsection
