@@ -9,7 +9,9 @@ use App\Http\Controllers\NewsController;
 
 Route::controller(DemosController::class)->group(function () {
     Route::get('/', 'index')->name('index');
+    Route::get('/specialist', 'specialist')->name('specialist');
 });
+
 
 Route::controller(NewsController::class)->group(function () {
     Route::get('/news', 'index')->name('news.index');

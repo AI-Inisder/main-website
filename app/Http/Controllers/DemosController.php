@@ -21,6 +21,11 @@ class DemosController extends Controller
         return view('demos/index', ['news' => $news]);
     }
 
+    public function specialist()
+    {
+        return view('demos/specialist');
+    }
+
     public function index2OnePage()
     {
         return view('demos/index2OnePage');
