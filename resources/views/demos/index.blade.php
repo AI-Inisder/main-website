@@ -6,7 +6,7 @@
         '<link rel="stylesheet" href="' . asset('assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css') . '" />';
     $header = 'false';
     $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js') . '"></script>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script src="' . asset('assets/js/insur.js') . '"></script>';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script src="' . asset('assets/js/insur.js') . '"></script>';
     $counterone = 'false';
 @endphp
 
@@ -41,6 +41,9 @@
                                             </li>
                                             <li class="scrollToLink">
                                                 <a href="#team">Team</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="{{ route('specialist') }}">Specialist</a>
                                             </li>
                                             <li class="scrollToLink">
                                                 <a href="#news">News</a>
@@ -78,16 +81,16 @@
                                     <div class="main-slider__content">
                                         <h2 class="main-slider__title" style="margin: 0"><span>Powering</span>
                                         </h2>
-                                        <h2 class="main-slider__title">Every Market,<br> Everywhere
+                                        <h2 class="main-slider__title">Every Market <br> and Talent Profiling
                                         </h2>
                                         <p class="main-slider__text">Redefining the B2B digital market with AI-driven
                                             solutions, <br> empowering businesses to thrive globally with Telkom Indonesia's
                                             innovation.</p>
                                         <div class="main-slider__btn-box" style="display: flex; gap: 1rem;">
-                                            <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Explore
                                                 Insights</a>
-                                            <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Learn About
                                                 AI
                                                 Insider</a>
@@ -170,7 +173,7 @@
                             </ul>
                             <div class="about-one__btn-call">
                                 <div class="about-one__btn-box">
-                                    <a href="mailto:adm.teamstudy@gmail.com" target="_blank"
+                                    <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                         class="thm-btn about-one__btn">Discover More</a>
                                 </div>
                             </div>
@@ -180,8 +183,6 @@
             </div>
         </section>
         <!--About One End-->
-
-
 
         <!--Why Choose One Start-->
         <section class="why-choose-one" id="why">
@@ -287,8 +288,8 @@
                     <div class="section-sub-title-box">
                         <p class="section-sub-title">Our Team</p>
                     </div>
-                    <p class="text">AI Insider has revolutionized how we approach market profiling. The
-                        insights provided by this platform have driven efficiency and growth across our operations</p>
+                    <p class="text">AI Insider has revolutionized how we approach market and talent profiling. The insights
+                        provided by this platform have driven efficiency and growth across our operations</p>
                     <h2 class="section-title__title">Here is the Team
                     </h2>
                 </div>
@@ -409,29 +410,29 @@
                         <div class="col-xl-12">
                             <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
                                 data-owl-options='{
-                                "loop": true,
-                                "autoplay": true,
-                                "margin": 30,
-                                "nav": false,
-                                "dots": false,
-                                "smartSpeed": 500,
-                                "autoplayTimeout": 10000,
-                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                "responsive": {
-                                    "0": {
-                                        "items": 1
-                                    },
-                                    "768": {
-                                        "items": 2
-                                    },
-                                    "992": {
-                                        "items": 2
-                                    },
-                                    "1200": {
-                                        "items": 2
-                                    }
-                                }
-                            }'>
+                                                                                                                                                                                "loop": true,
+                                                                                                                                                                                "autoplay": true,
+                                                                                                                                                                                "margin": 30,
+                                                                                                                                                                                "nav": false,
+                                                                                                                                                                                "dots": false,
+                                                                                                                                                                                "smartSpeed": 500,
+                                                                                                                                                                                "autoplayTimeout": 10000,
+                                                                                                                                                                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                                                                                                                                                                                "responsive": {
+                                                                                                                                                                                    "0": {
+                                                                                                                                                                                        "items": 1
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "768": {
+                                                                                                                                                                                        "items": 2
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "992": {
+                                                                                                                                                                                        "items": 2
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "1200": {
+                                                                                                                                                                                        "items": 2
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }'>
                                 <div class="item">
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
@@ -568,4 +569,4 @@
         </section>
         <!--News One End-->
 
-    @endsection
+@endsection
