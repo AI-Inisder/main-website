@@ -93,10 +93,8 @@
                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Explore
                                                 Insights</a>
-                                            <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
-                                                class="thm-btn main-slider__btn">Learn About
-                                                AI
-                                                Insider</a>
+                                            <a href="{{ route('orders.create') }}"
+                                                class="thm-btn main-slider__btn">Request Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -175,9 +173,11 @@
                                 </li>
                             </ul>
                             <div class="about-one__btn-call">
-                                <div class="about-one__btn-box">
+                                <div class="about-one__btn-box" style="display: flex; gap: 1rem;">
                                     <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                         class="thm-btn about-one__btn">Discover More</a>
+                                    <a href="{{ route('orders.create') }}"
+                                        class="thm-btn about-one__btn">Request Demo</a>
                                 </div>
                             </div>
                         </div>
