@@ -45,6 +45,9 @@
                                             <li class="scrollToLink">
                                                 <a href="{{ route('specialist') }}">Specialist</a>
                                             </li>
+                                            <li>
+                                                <a href="{{ route('orders') }}">Orders</a>
+                                            </li>
                                             <li class="scrollToLink">
                                                 <a href="#news">News</a>
                                             </li>

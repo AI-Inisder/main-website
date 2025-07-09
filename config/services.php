@@ -31,4 +31,9 @@ return [
         ],
     ],
 
+    'order_api' => [
+        'base_url' => env('ORDER_API_BASE_URL', 'https://chatbox.tradisco.id/api/v1/orders'),
+        'timeout' => env('ORDER_API_TIMEOUT', 30),
+    ],
+
 ];
