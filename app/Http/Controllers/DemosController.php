@@ -90,4 +90,9 @@ class DemosController extends Controller
     {
         return view('demos/makeaClaimDeath');
     }
+
+    public function orders()
+    {
+        return redirect()->route('orders.create');
+    }
 }
