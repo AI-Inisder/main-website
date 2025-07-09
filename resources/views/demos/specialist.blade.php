@@ -110,7 +110,7 @@
                 <div class="d-flex flex-wrap justify-content-center gap-5">
                     <!-- General Consultation -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20konsultasi%20umum" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #3B82F6, #2563EB); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -124,7 +124,7 @@
 
                     <!-- Lawyer -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20bantuan%20lawyer" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #F59E0B, #D97706); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -138,7 +138,7 @@
 
                     <!-- Notaris -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20jasa%20notaris" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #22C55E, #16A34A); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -152,7 +152,7 @@
 
                     <!-- Legal Services -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20layanan%20legal" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #8B5CF6, #7C3AED); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -166,7 +166,7 @@
 
                     <!-- Capital Investment -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20investasi%20modal" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #6366F1, #4F46E5); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -180,7 +180,7 @@
 
                     <!-- Investor -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20bantuan%20investor" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #10B981, #059669); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -194,7 +194,7 @@
 
                     <!-- Engineers -->
                     <div class="text-center">
-                        <a href="#" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                        <a href="https://wa.me/62811102239?text=Halo%20saya%20memerlukan%20jasa%20engineer" target="_blank" class="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                             style="width: 80px; height: 80px; background: linear-gradient(to bottom right, #EF4444, #DC2626); transition: transform 0.3s;"
                             onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
