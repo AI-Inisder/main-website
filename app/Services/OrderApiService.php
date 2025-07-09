@@ -24,14 +24,13 @@ class OrderApiService
         try {
             // Log sebelum request
             \Log::info('Order API Request', [
-                'url' => $this->baseUrl . '/',
+                'url' => $this->baseUrl,
                 'data' => $orderData
             ]);
 
             $response = \Http::withHeaders($this->defaultHeaders)
                 ->timeout(30)
-                ->withoutRedirecting()
-                ->post($this->baseUrl . '/', $orderData);
+                ->post($this->baseUrl, $orderData);
 
             // Log setelah request
             \Log::info('Order API Response', [
