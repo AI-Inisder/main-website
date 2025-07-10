@@ -14,52 +14,7 @@
 
     <div class="page-wrapper">
 
-        <header class="main-header clearfix">
-            <nav class="main-menu clearfix">
-                <div class="main-menu__wrapper clearfix">
-                    <div class="container">
-                        <div class="main-menu__wrapper-inner clearfix" style="padding: 0;">
-                            <div class="main-menu__left"
-                                style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                                <div class="main-menu__logo" style="padding: 1rem 0;">
-                                    <a href="{{ route('index') }}"><img
-                                            src="{{ asset('assets/images/icon/insider2_logo.png') }}" alt=""
-                                            style="width: 7rem"></a>
-                                </div>
-                                <div class="main-menu__main-menu-box" style="padding: .5rem 1rem">
-                                    <div class="main-menu__main-menu-box-inner">
-                                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                        <ul class="main-menu__list one-page-scroll-menu">
-                                            <li class="dropdown current scrollToLink">
-                                                <a href="#home">Home </a>
-                                            </li>
-                                            <li class="scrollToLink">
-                                                <a href="#about">About</a>
-                                            </li>
-                                            <li class="scrollToLink">
-                                                <a href="#why">Choose Us</a>
-                                            </li>
-                                            <li class="scrollToLink">
-                                                <a href="#team">Team</a>
-                                            </li>
-                                            <li class="scrollToLink">
-                                                <a href="{{ route('specialist') }}">Specialist</a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ route('orders') }}">Orders</a>
-                                            </li>
-                                            <li class="scrollToLink">
-                                                <a href="#news">News</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+        @include('components.indexheader')
 
         <x-strickyheader />
         <!-- /.stricky-header -->
@@ -93,8 +48,8 @@
                                             <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                                 class="thm-btn main-slider__btn">Explore
                                                 Insights</a>
-                                            <a href="{{ route('orders.create') }}"
-                                                class="thm-btn main-slider__btn">Request Demo</a>
+                                            <a href="{{ route('orders.create') }}" class="thm-btn main-slider__btn">Request
+                                                Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -129,6 +84,54 @@
                                 </div>
                                 <div class="about-one__shape-1">
                                     <img src="{{ asset('assets/images/shapes/about-one-shape-1.jpg') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Video Section Mobile/Tablet Only - After First Column -->
+                        <div class="d-lg-none">
+                            <div class="video-section-mobile" style="margin-top: 60px;">
+                                <div class="section-title text-center">
+                                    <div class="section-sub-title-box">
+                                        <p class="section-sub-title">Video Pembelajaran</p>
+                                    </div>
+                                    <h2 class="section-title__title">Tonton Video Tutorial Kami</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-4">
+                                        <div class="video-section__single">
+                                            <div class="video-section__inner">
+                                                <div class="video-wrapper">
+                                                    <iframe width="100%" height="250"
+                                                        src="https://www.youtube.com/embed/bSnpq6F34Ms"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen>
+                                                    </iframe>
+                                                </div>
+                                                <div class="video-section__content">
+                                                    <h3 class="video-section__title">Unveiling The Trends with AI</h3>
+                                                    <p class="video-section__text">Unveiling The Trends with AI</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <div class="video-section__single">
+                                            <div class="video-section__inner">
+                                                <div class="video-wrapper">
+                                                    <iframe width="100%" height="250"
+                                                        src="https://drive.google.com/file/d/17lNs391PfM6iCShtD7mFuhmxjRK_Bd6V/preview"
+                                                        title="Google Drive video player" frameborder="0" allowfullscreen>
+                                                    </iframe>
+                                                </div>
+                                                <div class="video-section__content">
+                                                    <h3 class="video-section__title">AI Hallucination Running</h3>
+                                                    <p class="video-section__text">AI Hallucination Running</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -176,8 +179,57 @@
                                 <div class="about-one__btn-box" style="display: flex; gap: 1rem;">
                                     <a href="mailto:aiinsidergo25@gmail.com" target="_blank"
                                         class="thm-btn about-one__btn">Discover More</a>
-                                    <a href="{{ route('orders.create') }}"
-                                        class="thm-btn about-one__btn">Request Demo</a>
+                                    <a href="{{ route('orders.create') }}" class="thm-btn about-one__btn">Request
+                                        Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--About One End-->
+
+        <!--Video Section Start - Desktop Only-->
+        <section class="video-section d-none d-lg-block" id="videos">
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-sub-title-box">
+                        <p class="section-sub-title">Video Pembelajaran</p>
+                    </div>
+                    <h2 class="section-title__title">Tonton Video Tutorial dan Pembelajaran Kami</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="video-section__single">
+                            <div class="video-section__inner">
+                                <div class="video-wrapper">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/bSnpq6F34Ms"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-section__content">
+                                    <h3 class="video-section__title">Unveiling The Trends with AI</h3>
+                                    <p class="video-section__text">Unveiling The Trends with AI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="video-section__single">
+                            <div class="video-section__inner">
+                                <div class="video-wrapper">
+                                    <iframe width="100%" height="315"
+                                        src="https://drive.google.com/file/d/17lNs391PfM6iCShtD7mFuhmxjRK_Bd6V/preview"
+                                        title="Google Drive video player" frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-section__content">
+                                    <h3 class="video-section__title">AI Hallucination Running</h3>
+                                    <p class="video-section__text">AI Hallucination Running</p>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +237,103 @@
                 </div>
             </div>
         </section>
-        <!--About One End-->
+        <!--Video Section End-->
+
+        <!--AI Features Section Start-->
+        <section class="ai-features-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-sub-title-box">
+                        <p class="section-sub-title">AI Insider: Unlock Your Business Potential</p>
+                    </div>
+                    <h2 class="section-title__title">Our Powerful Features</h2>
+                    <p class="section-title__text">At AI Insider, we empower businesses to thrive in the digital age by providing unparalleled insights into the market and talent landscape. With over million successful data structure, we possess end-to-end data capabilities that help businesses like yours find the right markets, talent, and opportunities.</p>
+                </div>
+                <div class="row">
+                    <!-- Feature 1: AI Market Profiling -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="ai-features-single">
+                            <div class="ai-features-single__inner">
+                                <div class="ai-features-single__icon">
+                                    <i class="icon-analytics"></i>
+                                </div>
+                                <div class="ai-features-single__content">
+                                    <h3 class="ai-features-single__title">AI Market Profiling</h3>
+                                    <p class="ai-features-single__text">Navigate the complexities of the market with confidence. Our AI Market Profiling tool goes beyond basic demographics, offering a deep dive into your target audience and competitive landscape.</p>
+                                    <div class="ai-features-single__features">
+                                        <ul>
+                                            <li><i class="fa fa-check"></i> Customer Profiling: Understand your ideal customers with precision</li>
+                                            <li><i class="fa fa-check"></i> Market Trends & Opportunities: Stay ahead of the curve</li>
+                                            <li><i class="fa fa-check"></i> Risk Assessment: Mitigate potential pitfalls before they arise</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ai-features-single__btn">
+                                        <a href="{{ route('orders.create') }}" class="thm-btn ai-features-single__btn-link">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2: AI Talent Profiling -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="ai-features-single">
+                            <div class="ai-features-single__inner">
+                                <div class="ai-features-single__icon">
+                                    <i class="icon-team"></i>
+                                </div>
+                                <div class="ai-features-single__content">
+                                    <h3 class="ai-features-single__title">AI Talent Profiling</h3>
+                                    <p class="ai-features-single__text">Discover, attract, and retain the best talent for your organization. Our AI Talent Profiling solution streamlines your recruitment process and optimizes your workforce.</p>
+                                    <div class="ai-features-single__features">
+                                        <ul>
+                                            <li><i class="fa fa-check"></i> Skill Gap Analysis: Identify critical skill gaps within your team</li>
+                                            <li><i class="fa fa-check"></i> Candidate Matching: Effortlessly match top-tier candidates</li>
+                                            <li><i class="fa fa-check"></i> Talent Retention Insights: Build a loyal and productive workforce</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ai-features-single__btn">
+                                        <a href="{{ route('orders.create') }}" class="thm-btn ai-features-single__btn-link">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3: AI Do-It-Yourself -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="ai-features-single">
+                            <div class="ai-features-single__inner">
+                                <div class="ai-features-single__icon">
+                                    <i class="icon-customize"></i>
+                                </div>
+                                <div class="ai-features-single__content">
+                                    <h3 class="ai-features-single__title">AI Do-It-Yourself Custom Use Cases</h3>
+                                    <p class="ai-features-single__text">Tailor AI Insider to your unique business needs. Our intuitive "Do-It-Yourself" platform allows you to create customized AI-powered solutions for specific challenges and opportunities.</p>
+                                    <div class="ai-features-single__features">
+                                        <ul>
+                                            <li><i class="fa fa-check"></i> Build Your Own Workflows: Design bespoke AI models</li>
+                                            <li><i class="fa fa-check"></i> Integrate Your Data: Seamlessly integrate existing datasets</li>
+                                            <li><i class="fa fa-check"></i> Endless Possibilities: From supply chains to customer experiences</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ai-features-single__btn">
+                                        <a href="{{ route('orders.create') }}" class="thm-btn ai-features-single__btn-link">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-features-section__bottom">
+                    <div class="text-center">
+                        <p class="ai-features-section__bottom-text">Ready to revolutionize your business with data-driven insights?</p>
+                        <a href="{{ route('orders.create') }}" class="thm-btn ai-features-section__cta-btn">Explore AI Insider Today</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--AI Features Section End-->
 
         <!--Why Choose One Start-->
         <section class="why-choose-one" id="why">
@@ -291,7 +439,8 @@
                     <div class="section-sub-title-box">
                         <p class="section-sub-title">Our Team</p>
                     </div>
-                    <p class="text">AI Insider has revolutionized how we approach market and talent profiling. The insights
+                    <p class="text">AI Insider has revolutionized how we approach market and talent profiling. The
+                        insights
                         provided by this platform have driven efficiency and growth across our operations</p>
                     <h2 class="section-title__title">Here is the Team
                     </h2>
@@ -572,4 +721,275 @@
         </section>
         <!--News One End-->
 
-@endsection
+        <style>
+            .video-section {
+                padding: 120px 0;
+                background-color: #f8f9fa;
+                margin: 60px 0;
+            }
+
+            .video-section__single {
+                margin-bottom: 30px;
+            }
+
+            .video-section__inner {
+                background: #fff;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+                height: 100%;
+            }
+
+            .video-section__inner:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            }
+
+            .video-wrapper {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 56.25%;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            .video-wrapper iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+
+            .video-section__title {
+                font-size: 20px;
+                font-weight: 600;
+                color: #2c3e50;
+                margin-bottom: 10px;
+            }
+
+            .video-section__text {
+                color: #6c757d;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            .video-section-mobile {
+                padding: 40px 0;
+                background-color: #f8f9fa;
+                border-radius: 15px;
+                margin-top: 60px;
+            }
+
+            .video-section-mobile .video-wrapper {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 56.25%;
+                margin-bottom: 15px;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            .video-section-mobile .video-wrapper iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+
+            @media (max-width: 768px) {
+                .video-section {
+                    padding: 80px 0;
+                    margin: 40px 0;
+                }
+            }
+            
+            /* AI Features Section Styles */
+            .ai-features-section {
+                padding: 120px 0;
+                background-color: #ffffff;
+            }
+            
+            .ai-features-single {
+                margin-bottom: 30px;
+            }
+            
+            .ai-features-single__inner {
+                background: #fff;
+                border-radius: 15px;
+                padding: 40px 30px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+                height: 100%;
+                min-height: 500px;
+                border: 1px solid #f0f0f0;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .ai-features-single__inner:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            }
+            
+            .ai-features-single__inner:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+            
+            .ai-features-single__icon {
+                text-align: center;
+                margin-bottom: 25px;
+            }
+            
+            .ai-features-single__icon i {
+                font-size: 48px;
+                color: #667eea;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            
+            .ai-features-single__title {
+                font-size: 22px;
+                font-weight: 700;
+                color: #2c3e50;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            
+            .ai-features-single__text {
+                color: #6c757d;
+                font-size: 14px;
+                line-height: 1.7;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            
+            .ai-features-single__content {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .ai-features-single__features {
+                flex: 1;
+                margin-bottom: 25px;
+            }
+            
+            .ai-features-single__features ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .ai-features-single__features li {
+                padding: 8px 0;
+                color: #555;
+                font-size: 13px;
+                line-height: 1.5;
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            .ai-features-single__features li i {
+                color: #28a745;
+                margin-right: 10px;
+                margin-top: 2px;
+                font-size: 12px;
+            }
+            
+            .ai-features-single__btn {
+                text-align: center;
+                margin-top: auto;
+                padding-top: 25px;
+            }
+            
+            .ai-features-single__btn-link {
+                padding: 12px 30px;
+                font-size: 14px;
+                border-radius: 25px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border: none;
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                transition: all 0.3s ease;
+            }
+            
+            .ai-features-single__btn-link:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+                color: white;
+                text-decoration: none;
+            }
+            
+            .ai-features-section__bottom {
+                margin-top: 60px;
+                padding-top: 40px;
+                border-top: 1px solid #e9ecef;
+            }
+            
+            .ai-features-section__bottom-text {
+                font-size: 18px;
+                color: #2c3e50;
+                margin-bottom: 25px;
+                font-weight: 600;
+            }
+            
+            .ai-features-section__cta-btn {
+                padding: 15px 40px;
+                font-size: 16px;
+                border-radius: 30px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border: none;
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                transition: all 0.3s ease;
+                font-weight: 600;
+            }
+            
+            .ai-features-section__cta-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+                color: white;
+                text-decoration: none;
+            }
+            
+            @media (max-width: 768px) {
+                .ai-features-section {
+                    padding: 80px 0;
+                }
+                
+                .ai-features-single__inner {
+                    padding: 30px 20px;
+                    min-height: 450px;
+                }
+                
+                .ai-features-single__title {
+                    font-size: 20px;
+                }
+                
+                .ai-features-section__bottom {
+                    margin-top: 40px;
+                }
+            }
+        </style>
+
+    @endsection
