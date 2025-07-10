@@ -87,15 +87,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Video Section Mobile/Tablet Only - After First Column -->
                         <div class="d-lg-none">
                             <div class="video-section-mobile" style="margin-top: 60px;">
                                 <div class="section-title text-center">
                                     <div class="section-sub-title-box">
-                                        <p class="section-sub-title">Video Pembelajaran</p>
+                                        {{-- <p class="section-sub-title">Video Pembelajaran</p> --}}
                                     </div>
-                                    <h2 class="section-title__title">Tonton Video Tutorial Kami</h2>
+                                    <h2 class="section-title__title">What’s new from AI?</h2>
                                 </div>
                                 <div class="row">
                                     <div class="col-12 mb-4">
@@ -196,9 +196,9 @@
             <div class="container">
                 <div class="section-title text-center">
                     <div class="section-sub-title-box">
-                        <p class="section-sub-title">Video Pembelajaran</p>
+                        {{-- <p class="section-sub-title">Video Pembelajaran</p> --}}
                     </div>
-                    <h2 class="section-title__title">Tonton Video Tutorial dan Pembelajaran Kami</h2>
+                    <h2 class="section-title__title">What’s new from AI?</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="100ms">
@@ -810,17 +810,17 @@
                     margin: 40px 0;
                 }
             }
-            
+
             /* AI Features Section Styles */
             .ai-features-section {
                 padding: 120px 0;
                 background-color: #ffffff;
             }
-            
+
             .ai-features-single {
                 margin-bottom: 30px;
             }
-            
+
             .ai-features-single__inner {
                 background: #fff;
                 border-radius: 15px;
@@ -835,12 +835,12 @@
                 display: flex;
                 flex-direction: column;
             }
-            
+
             .ai-features-single__inner:hover {
                 transform: translateY(-10px);
                 box-shadow: 0 20px 40px rgba(0,0,0,0.15);
             }
-            
+
             .ai-features-single__inner:before {
                 content: '';
                 position: absolute;
@@ -850,12 +850,12 @@
                 height: 4px;
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             }
-            
+
             .ai-features-single__icon {
                 text-align: center;
                 margin-bottom: 25px;
             }
-            
+
             .ai-features-single__icon i {
                 font-size: 48px;
                 color: #667eea;
@@ -864,7 +864,7 @@
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
             }
-            
+
             .ai-features-single__title {
                 font-size: 22px;
                 font-weight: 700;
@@ -872,7 +872,7 @@
                 margin-bottom: 15px;
                 text-align: center;
             }
-            
+
             .ai-features-single__text {
                 color: #6c757d;
                 font-size: 14px;
@@ -880,24 +880,24 @@
                 margin-bottom: 20px;
                 text-align: center;
             }
-            
+
             .ai-features-single__content {
                 flex: 1;
                 display: flex;
                 flex-direction: column;
             }
-            
+
             .ai-features-single__features {
                 flex: 1;
                 margin-bottom: 25px;
             }
-            
+
             .ai-features-single__features ul {
                 list-style: none;
                 padding: 0;
                 margin: 0;
             }
-            
+
             .ai-features-single__features li {
                 padding: 8px 0;
                 color: #555;
@@ -906,20 +906,20 @@
                 display: flex;
                 align-items: flex-start;
             }
-            
+
             .ai-features-single__features li i {
                 color: #28a745;
                 margin-right: 10px;
                 margin-top: 2px;
                 font-size: 12px;
             }
-            
+
             .ai-features-single__btn {
                 text-align: center;
                 margin-top: auto;
                 padding-top: 25px;
             }
-            
+
             .ai-features-single__btn-link {
                 padding: 12px 30px;
                 font-size: 14px;
@@ -931,27 +931,27 @@
                 display: inline-block;
                 transition: all 0.3s ease;
             }
-            
+
             .ai-features-single__btn-link:hover {
                 transform: translateY(-2px);
                 box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
                 color: white;
                 text-decoration: none;
             }
-            
+
             .ai-features-section__bottom {
                 margin-top: 60px;
                 padding-top: 40px;
                 border-top: 1px solid #e9ecef;
             }
-            
+
             .ai-features-section__bottom-text {
                 font-size: 18px;
                 color: #2c3e50;
                 margin-bottom: 25px;
                 font-weight: 600;
             }
-            
+
             .ai-features-section__cta-btn {
                 padding: 15px 40px;
                 font-size: 16px;
@@ -964,28 +964,28 @@
                 transition: all 0.3s ease;
                 font-weight: 600;
             }
-            
+
             .ai-features-section__cta-btn:hover {
                 transform: translateY(-2px);
                 box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
                 color: white;
                 text-decoration: none;
             }
-            
+
             @media (max-width: 768px) {
                 .ai-features-section {
                     padding: 80px 0;
                 }
-                
+
                 .ai-features-single__inner {
                     padding: 30px 20px;
                     min-height: 450px;
                 }
-                
+
                 .ai-features-single__title {
                     font-size: 20px;
                 }
-                
+
                 .ai-features-section__bottom {
                     margin-top: 40px;
                 }
