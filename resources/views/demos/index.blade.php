@@ -103,9 +103,8 @@
                                             <div class="video-section__inner">
                                                 <div class="video-wrapper">
                                                     <iframe width="100%" height="250"
-                                                        src="https://www.youtube.com/embed/bSnpq6F34Ms"
-                                                        title="YouTube video player" frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        src="https://drive.google.com/file/d/1fl48qeRNmGr1akKDUEDr1ha5ktUIQdzJ/preview"
+                                                        title="Google Drive video player" frameborder="0"
                                                         allowfullscreen>
                                                     </iframe>
                                                 </div>
@@ -205,9 +204,9 @@
                         <div class="video-section__single">
                             <div class="video-section__inner">
                                 <div class="video-wrapper">
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/bSnpq6F34Ms"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    <iframe width="100%" height="315"
+                                        src="https://drive.google.com/file/d/1fl48qeRNmGr1akKDUEDr1ha5ktUIQdzJ/preview"
+                                        title="Google Drive video player" frameborder="0"
                                         allowfullscreen>
                                     </iframe>
                                 </div>
